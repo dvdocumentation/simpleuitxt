@@ -38,7 +38,7 @@ Normal mode
 ~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: _static/bus_queue.png
-       :scale: 60%
+       :scale: 50%
        :align: center
 
 The main mode is the usual sending of JSON messages. The input to the bus can be either an HTTP request/WebSocket request (from the backend system, for example) or a command to send via WebSocket from the client. The JSON specifies the recipients or subscriptions to which the message is addressed and the message itself. After that, the message is delivered via the bus and a delivery event occurs in the client. If the client is an HTTP server, the bus sends a request to it. The client sends a confirmation, after which the delivery is considered complete.
@@ -99,7 +99,7 @@ File delivery.
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: _static/bus_files.png
-       :scale: 60%
+       :scale: 50%
        :align: center
 
 If you need to transfer pictures, videos or just a large JSON, for example, it is better to do this not through JSON but through a regular HTTP request with an attached file. The files are cached on the server (on the disk) until they are delivered to the recipient. And WebSocket performs the function of instant notification of the client.
@@ -118,7 +118,7 @@ Addressing to devices and within the SimpleUI application
 ----------------------------------------------------------
 
 .. image:: _static/bus_routing.png
-       :scale: 60%
+       :scale: 50%
        :align: center
 
 
