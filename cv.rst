@@ -6,7 +6,7 @@
 Computer Vision and Augmented Reality ActiveCV
 ========================================================
 
-.. image:: _static/2025_cv_1.PNG
+.. image:: _static/2025_cv_1.png
        :scale: 75%
        :align: center
 
@@ -20,7 +20,7 @@ An important feature of the technology is the illumination of objects in differe
  * order is overdue by deadline - red, deadline is approaching - yellow, not overdue - green
 
 
-.. image:: _static/2025_cv_3.PNG
+.. image:: _static/2025_cv_3.png
        :scale: 75%
        :align: center
 
