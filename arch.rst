@@ -49,7 +49,7 @@ When the application starts, a service for background tasks is launched and rema
 Process Menu and Options Menu
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: _static/menu_pic.PNG
+.. image:: _static/menu_pic.png
        :scale: 55%
        :align: center
 
@@ -63,7 +63,7 @@ Under *Configuration > Initial Screen*, you can set the menu type to "Process" a
 
 Events occurring on the screen (eg, button clicks, menu loading) are not handled in the process defined for the menu (which is only for rendering) but in the *General Handlers* `onInputMenu` and `onStartMenu`.
 
-.. image:: _static/2025_arch_1.PNG
+.. image:: _static/2025_arch_1.png
        :scale: 55%
        :align: center
 
@@ -80,7 +80,7 @@ Description in progress.
 Events and Handlers
 ------------------------
 
-.. image:: _static/2025_arch_2.PNG
+.. image:: _static/2025_arch_2.png
        :scale: 75%
        :align: center
 
@@ -101,13 +101,13 @@ Event handlers are specified as an array of handlers—either in the constructor
 
 Handlers are defined in the screen (under the screen key `Handlers`).
 
-.. image:: _static/2025_arch_3.PNG
+.. image:: _static/2025_arch_3.png
        :scale: 75%
        :align: center
 
 There are general system handlers (outside screens) (under the configuration key `CommonHandlers`).
 
-.. image::_static/2025_arch_4.PNG
+.. image::_static/2025_arch_4.png
        :scale: 70%
        :align: center
 
@@ -185,13 +185,13 @@ For General Handlers:
 
 **listener (<event name filter>)** (optional) – input events on the screen and some general events are further divided by event name (essentially, the source), which is specified in the variable stack in the `listener` variable. In some cases, the developer can set it themselves—for example, you can call a modal dialog and specify a `listener` that will be in the input event upon completion. You can omit the `listener` filter, in which case the handler in this line will catch all events of this type with different `listener` values. In this case, the logic for switching between event sources is inside the handler.
 
-.. image:: _static/2025_arch_5.PNG
+.. image:: _static/2025_arch_5.png
        :scale: 100%
        :align: center
 
 If you specify a **listener**, only the desired event source will be caught. Usually, it is better to specify the `listener`—this makes the configuration more readable.
 
-.. image:: _static/2025_arch_6.PNG
+.. image:: _static/2025_arch_6.png
        :scale: 90%
        :align: center
 
@@ -273,7 +273,7 @@ If multiple handlers (eg, synchronous ones) are arranged one after another for t
 Error
 ~~~~~~~~~
 
-.. image:: _static/2025_arch_7.PNG
+.. image:: _static/2025_arch_7.png
        :scale: 55%
        :align: center
 
@@ -370,7 +370,7 @@ For example, the result is returned in a slice like this:
 
 Since much of the interaction in SimpleUI occurs via JSON (dictionaries), this mechanism significantly saves time. For example, dictionaries are used in the offline DBMS Pelican/SimpleBase, online MongoDB, the SimpleBus bus, various services, etc.
 
-.. image:: _static/2025_arch_8.PNG
+.. image:: _static/2025_arch_8.png
        :scale: 55%
        :align: center
 
@@ -391,7 +391,7 @@ You can open a configuration in several ways:
 Configuration Repository
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: _static/2025_arch_9.PNG
+.. image:: _static/2025_arch_9.png
        :scale: 55%
        :align: center
 
@@ -408,7 +408,7 @@ You can also install and update the active configuration from code by applying t
 Standalone Process Files (SUIP Files)
 ----------------------------------------
 
-.. image:: _static/2025_arch_10.PNG
+.. image:: _static/2025_arch_10.png
        :scale: 55%
        :align: center
 
@@ -424,7 +424,7 @@ Files can be transferred in various ways—via the Internet or, for example, via
 
 For example, you can send an electronic packing list and a SUIP file for acceptance verification to an external buyer, who can open it on their phone or handheld device, scan it, and send it back.
 
-.. image:: _static/2025_arch_11.PNG
+.. image:: _static/2025_arch_11.png
        :scale: 55%
        :align: center
 
