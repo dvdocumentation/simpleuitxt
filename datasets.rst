@@ -51,7 +51,7 @@ If you have a dataset, then in order to place a list on the screen, it is enough
  hashMap.put("table",json_to_str(j))
  
 
-.. image:: _static/2025_dataset_4.PNG
+.. image:: _static/2025_dataset_4.png
        :scale: 55%
        :align: center
 
@@ -67,7 +67,7 @@ By the way, usually a container is drawn for the lines, but if you don't want to
    }
  
 
-.. image:: _static/2025_dataset_5.PNG
+.. image:: _static/2025_dataset_5.png
        :scale: 55%
        :align: center
 
@@ -145,7 +145,7 @@ Example of creating and specifying dataset options:
 You can use the | construct to place a field with a title
 
 
-.. image:: _static/2025_dataset_1.PNG
+.. image:: _static/2025_dataset_1.png
        :scale: 55%
        :align: center
 
@@ -162,7 +162,7 @@ To set the field settings, there is a simplified version and a version with sett
 Examples of different dataset field settings:
 
 
-.. image:: _static/2025_dataset_2.PNG
+.. image:: _static/2025_dataset_2.png
        :scale: 55%
        :align: center
 
@@ -194,7 +194,7 @@ And on the screen in onStart we will set the VAT by default
 Then, when you open it, you will see the result:
  
 
-.. image:: _static/2025_dataset_3.PNG
+.. image:: _static/2025_dataset_3.png
        :scale: 55%
        :align: center
 
@@ -203,7 +203,7 @@ Direct connection of screen elements with dataset fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-.. image:: _static/2025_dataset_6.PNG
+.. image:: _static/2025_dataset_6.png
        :scale: 55%
        :align: center
 
@@ -217,7 +217,7 @@ When you change the text in the input field, direct recording occurs
 To do this, you need to specify a variable in the value that will contain a link to the record (universal link), and you need to place the name of the record field in the variable.
 
 
-.. image:: _static/2025_dataset_7.PNG
+.. image:: _static/2025_dataset_7.png
        :scale: 55%
        :align: center
 
