@@ -17,7 +17,7 @@ Option via HTTP service (online handler)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-.. image:: _static/2025_communications_2.PNG
+.. image:: _static/2025_communications_2.png
        :scale: 75%
        :align: center
 
@@ -59,7 +59,7 @@ The advantages of this approach:
  * The application can work with an infinite number of servers, or distributed servers
 
 
-.. image:: _static/2025_communications_1.PNG
+.. image:: _static/2025_communications_1.png
        :scale: 55%
        :align: center
 
