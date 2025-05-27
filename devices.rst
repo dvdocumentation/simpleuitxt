@@ -150,10 +150,10 @@ When working directly with the printer port:
  1. Preparing the layout for printing - this can be a ZPL string, ESC-POS, CPCL or other data
  2. Connecting to a printer (in the case of Bluetooth – scanning and selecting a printer, USB – selecting the first device from the list of connected devices) and sending data to the printer port for printing in the form of a byte array. Then, if necessary, closing the socket.
 
-In case of working with layouts and printing via Android print manager (optional - output to PNG file):
+In case of working with layouts and printing via Android print manager (optional - output to png file):
 
  1. Preparing an HTML layout of the document and calling the PrintPreview command
- 2. *Optional*. In case of output in PNG – this stage can be continued – the image is embedded in the data transmitted to the printer port, for example in zpl and then the process will continue as in case of connection directly to the printer port
+ 2. *Optional*. In case of output in png – this stage can be continued – the image is embedded in the data transmitted to the printer port, for example in zpl and then the process will continue as in case of connection directly to the printer port
 
 In case of working directly with the printer port (socket), the previously described methods of connecting via Bluetooth (as to an accessory), to a TCP socket and to a USB device (the print_usb function) are used. The data can be represented by a string or a byte array. The methods for preparing this layout are described below.
 
