@@ -9,7 +9,7 @@ General platform functions
 Dialogues
 ---------------
 
-.. image:: _static/2025_common_1.PNG
+.. image:: _static/2025_common_1.png
        :scale: 75%
        :align: center
 
@@ -37,7 +37,7 @@ Working with images
 --------------------------------
 
 
-.. image:: _static/2025_common_2.PNG
+.. image:: _static/2025_common_2.png
        :scale: 75%
        :align: center
 
@@ -78,7 +78,7 @@ For example:
 Horizontal Media Gallery
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: _static/2025_common_3.PNG
+.. image:: _static/2025_common_3.png
        :scale: 75%
        :align: center
 
@@ -88,7 +88,7 @@ The Horizontal Media Gallery control is both a visual and an active element that
 Gallery Slider
 ~~~~~~~~~~~~~~~~~~~~
 
-.. image:: _static/2025_common_4.PNG
+.. image:: _static/2025_common_4.png
        :scale: 55%
        :align: center
 
@@ -100,7 +100,7 @@ Toast messages
 --------------------------------
 
 
-.. image:: _static/2025_common_5.PNG
+.. image:: _static/2025_common_5.png
        :scale: 100%
        :align: center
 
@@ -189,7 +189,7 @@ PrintPreview, preparing layouts for printing
 ------------------------------------------------
 
 
-.. image:: _static/2025_common_6.PNG
+.. image:: _static/2025_common_6.png
        :align: center
 
 
