@@ -138,13 +138,13 @@ In general, the syntax consists of the following elements:
 
  [
               {
-                  "event": <event type filter>,
-                 "action": <execution type>,
-                 "listener": <event name filter>,
-                 "type": <handler type>,
-                 "method": <method name/method text>,
-                "postExecute": <array of completion handlers>,
-                 "alias": <handler string alias>
+                  "event": /*event type filter*/,
+                 "action": /*execution type*/,
+                 "listener": /*event name filter*/,
+                 "type": /*handler type*/,
+                 "method": /*method name/method text*/,
+                "postExecute": /*array of completion handlers*/,
+                 "alias": /*handler string alias*/
               }
  ]
 
