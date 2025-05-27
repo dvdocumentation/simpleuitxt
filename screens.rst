@@ -17,19 +17,19 @@ Elements placed on the screen are filled either from constants or from stack var
 
 It looks like this in the designer and on the form
 
-.. image:: _static/2025_screen_1.PNG
+.. image:: _static/2025_screen_1.png
        :scale: 65%
        :align: center
 
 But you can define the value as @btn_caption, having previously written the value “Record Document #1” to the btn_caption variable.
 
-.. image:: _static/2025_screen_3.PNG
+.. image:: _static/2025_screen_3.png
        :scale: 75%
        :align: center
 
 Then when drawing, it will be like this
 
-.. image:: _static/2025_screen_4.PNG
+.. image:: _static/2025_screen_4.png
        :scale: 70%
        :align: center
 
@@ -155,13 +155,13 @@ If you need to distribute several elements within a container proportionally to 
 
 For example, if two elements should divide the width in half, then both should have a weight of 1, if one should be twice as wide, then it should have a weight of 2, and the other - 1. That is, the weight is the proportion or weight of the element within the container along the axis.
 
-.. image:: _static/2025_screen_5.PNG
+.. image:: _static/2025_screen_5.png
        :scale: 75%
        :align: center
 
 Another common layout option: *you need to stretch an element, but leave space for elements above and below. For example, you have several elements above, and you want to place a block of buttons below. The space between them can be empty, or occupied by a list, as an option.*
 
-.. image:: _static/2025_screen_6.PNG
+.. image:: _static/2025_screen_6.png
        :scale: 75%
        :align: center
 
@@ -176,7 +176,7 @@ The two examples above are here: https://disk.yandex.ru/d/JOJh0OtV1aAdig
 Configuration section Containers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: _static/2025_screen_7.PNG
+.. image:: _static/2025_screen_7.png
        :scale: 70%
        :align: center
 
@@ -276,7 +276,7 @@ Html strings
 
 All captions, practically all elements (not only the Caption elements themselves, but also other elements, such as text in tables) can be marked with HTML tags. This is a powerful and simple way to liven up the interface without complicating it with unnecessary containers, background colors, etc. For example, you can highlight part of a line like this. This is plain text, and this is <b>bold</b>
 
-.. image:: _static/2025_screen_8.PNG
+.. image:: _static/2025_screen_8.png
        :scale: 55%
        :align: center
 
@@ -316,7 +316,7 @@ Here is a sample list of supported tags:
 Awesome icons
 -------------------
 
-.. image:: _static/2025_screen_9.PNG
+.. image:: _static/2025_screen_9.png
        :scale: 55%
        :align: center
 
@@ -332,7 +332,7 @@ Simplified markup of input fields with a heading using “|”
 
 All input fields (except the modern input field) can be placed together with the header in a simplified form. How would it be in the standard version? To do this, you need to make a horizontal container and place two elements in it - a Label (field header) and an input field with weights for both = 1. Then we will get a field with a header. The same action can be performed if you simply place an input field:
 
-.. image:: _static/2025_screen_10.PNG
+.. image:: _static/2025_screen_10.png
        :scale: 90%
        :align: center
 
@@ -358,7 +358,7 @@ Input field string (EditTextText), Input field number (EditText EditTextNumeric)
 Modern input field
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: _static/2025_screen_11.PNG
+.. image:: _static/2025_screen_11.png
        :scale: 55%
        :align: center
 
@@ -413,7 +413,7 @@ Date(DateField) is a field for selecting a date from a calendar. When selecting 
 DatePicker, NumberPicker, TimePicker
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: _static/2025_screen_12.PNG
+.. image:: _static/2025_screen_12.png
        :scale: 55%
        :align: center
 
@@ -443,7 +443,7 @@ Placement of several buttons using a list. The value is passed a list of button 
 Gauge
 ~~~~~~~~~~~~~~~~~~~
 
-.. image:: _static/2025_screen_14.PNG
+.. image:: _static/2025_screen_14.png
        :scale: 55%
        :align: center
 
@@ -461,7 +461,7 @@ Example:
 Charts. Line, Bar and Pie charts output to container
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: _static/2025_screen_15.PNG
+.. image:: _static/2025_screen_15.png
        :scale: 55%
        :align: center
 
@@ -492,13 +492,13 @@ The table and the list of cards differ only in design and value format. In essen
 
 The table does not have row borders by default, they must be specified in the container if required. The same with interlaced layout.
 
-.. image:: _static/2025_screen_17.PNG
+.. image:: _static/2025_screen_17.png
        :scale: 75%
        :align: center
 
 In the Card List, items are formatted as cards.
 
-.. image:: _static/2025_screen_16.PNG
+.. image:: _static/2025_screen_16.png
        :scale: 100%
        :align: center
 
@@ -605,7 +605,7 @@ Using Active Items in Lists
 """"""""""""""""""""""""""""""""""""""""""""
 
 
-.. image:: _static/2025_screen_18.PNG
+.. image:: _static/2025_screen_18.png
        :scale: 90%
        :align: center
 
@@ -623,7 +623,7 @@ In order for automatic search by table in the toolbar to appear on the screen, i
 Horizontal lists
 """"""""""""""""""""""""
 
-.. image:: _static/2025_screen_19.PNG
+.. image:: _static/2025_screen_19.png
        :scale: 75%
        :align: center
 
@@ -657,7 +657,7 @@ Dataset fields
 ~~~~~~~~~~~~~~~~~~
 
 
-.. image:: _static/2025_screen_20.PNG
+.. image:: _static/2025_screen_20.png
        :scale: 75%
        :align: center
 
@@ -690,7 +690,7 @@ To set the field settings, there is a simplified version and a version with sett
  * hint - hint
  
 
-.. image:: _static/2025_screen_22.PNG
+.. image:: _static/2025_screen_22.png
        :scale: 75%
        :align: center
 
@@ -722,7 +722,7 @@ And on the screen in onStart we will set the VAT by default
 Then, when you open it, you will see the result:
  
 
-.. image:: _static/2025_screen_21.PNG
+.. image:: _static/2025_screen_21.png
        :scale: 55%
        :align: center
 
@@ -732,7 +732,7 @@ Then, when you open it, you will see the result:
 ActiveCV
 ~~~~~~~~~~~
 
-.. image:: _static/2025_screen_23.PNG
+.. image:: _static/2025_screen_23.png
        :scale: 55%
        :align: center
 
@@ -748,7 +748,7 @@ HTML field
 ~~~~~~~~~~~~~
 
 
-.. image:: _static/2025_screen_24.PNG
+.. image:: _static/2025_screen_24.png
        :scale: 55%
        :align: center
 
