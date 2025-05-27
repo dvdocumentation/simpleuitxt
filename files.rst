@@ -87,7 +87,7 @@ I'll say right away that using this particular worker is not necessary. You can 
 Static resources
 -----------------------------
 
-.. image:: _static/mediafiles.PNG
+.. image:: _static/mediafiles.png
        :scale: 100%
        :align: center
 
