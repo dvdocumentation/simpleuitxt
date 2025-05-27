@@ -14,7 +14,7 @@ Example 1. Getting started, screen markup and Python handlers.
 Deployment
 ~~~~~~~~~~~~~~~~~
 
-.. image:: _static/starting_page.PNG
+.. image:: _static/starting_page.png
        :scale: 55%
        :align: center
 
@@ -33,7 +33,7 @@ Rename the process name and the screen name to something meaningful. You can als
 
 Let's add several elements - labels, an input field and a button. For all of them, we set the width to the entire container. For the labels, we define the Value, for the input fields - variables that will contain the entered values. For the button, in the Value, we write the button's label, and in the variable - a variable by which the handler will understand that this particular button was pressed.
 
-.. image:: _static/container_content.PNG
+.. image:: _static/container_content.png
        :scale: 55%
        :align: center
 
@@ -56,7 +56,7 @@ To do this, go to the Handlers tab on the screen and add a new handler with the 
 * Action = **run** (meaning synchronous execution)
 * Handler type **pythonscript** (which means you can write the test directly in the editor)
 
-.. image:: _static/2025_quick_start_ex1.PNG
+.. image:: _static/2025_quick_start_ex1.png
        :scale: 80%
        :align: center
 
@@ -87,25 +87,25 @@ Note: This example can be implemented in many different ways. For example, you c
  datasrv = CreateDataSet("barcodes")
 
 
-.. image:: _static/2025_quick_start_ex2_1.PNG
+.. image:: _static/2025_quick_start_ex2_1.png
        :scale: 70%
        :align: center
 
 
 **Step 3.** Let's go to the process (you can rename the Process and the screen as you like). In the screen, add the Barcode element, with the barcode variable
 
-.. image:: _static/2025_quick_start_ex2_2.PNG
+.. image:: _static/2025_quick_start_ex2_2.png
        :align: center
 
 We will also create a root container, and in it we will place only one element, the List of cards, with the value @cards (**@** indicates that the value should be taken from the variable stack)
 
-.. image:: _static/2025_quick_start_ex2_3.PNG
+.. image:: _static/2025_quick_start_ex2_3.png
        :scale: 70%
        :align: center
 
 We will also disable scrolling of the root container (the list has its own scrolling) and disable the bottom button panel
 
-.. image:: _static/2025_quick_start_ex2_4.PNG
+.. image:: _static/2025_quick_start_ex2_4.png
        :scale: 80%
        :align: center
 
@@ -128,7 +128,7 @@ In **cardsdata** the dataset is specified explicitly, or a reference to an objec
 
 Next, we need to convert this dictionary to JSON and pack it into a variable. This is done using the **json_to_str** function (a wrapper for json.dumps(,ensure_ascii=False))
 
-.. image:: _static/2025_quick_start_ex2_5.PNG
+.. image:: _static/2025_quick_start_ex2_5.png
        :scale: 80%
        :align: center
 
@@ -147,7 +147,7 @@ What did we write? GetDataSet("barcodes") – get the object of the previously c
 
 Save, check. Scan the barcodes. They are added.
 
-.. image:: _static/2025_quickstart_ex2_7.PNG
+.. image:: _static/2025_quickstart_ex2_7.png
        :scale: 75%
        :align: center
 
@@ -179,7 +179,7 @@ And let's add a handler for it:
  ds= GetDataSet("barcodes")
  ds.save()
 
-.. image:: _static/2025_quick_start_ex2_6.PNG
+.. image:: _static/2025_quick_start_ex2_6.png
        :scale: 80%
        :align: center
 
