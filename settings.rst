@@ -94,14 +94,3 @@ When working through a web server on the accounting system side, each time the c
 If the work does not require the presence of a web server on the backend side, then the configuration can be transferred to the device by a direct HTTP request. To do this, you need to know the address of the mobile client web service, which can be found in the settings. Next, you need to send a POST request to this address **SetConf** in the body of which is the configuration text (the contents of the UI file) and the configuration will be written to memory, after which you can update or restart the program so that it is applied.
 
 
-
-Centralized management of settings and devices via web service
----------------------------------------------------------------------------
-
-Mobile workstations can be managed centrally, address-wise. That is, by AndroidID (unique device ID) you can send new settings to a mobile device or change the configuration. When the application starts, it sends a request service_broadcast/{AndroidID} to the URL specified in the Service_URL setting (if such a setting is not specified, then to the configuration URL). The request transmits the AndroidID and the device model for organizing the device directory database on the central side.
-
-In response, the service can send a JSON of a certain structure to change the settings (it is possible that other commands will be transmitted through this channel later). This can be {"command":"update","uuid":UID,"value":JSON settings}, where UID is an arbitrary UID generated to identify a specific command for the response token. JSON settings - JSON string with settings from the previous section
-
-After receiving the settings, if everything is OK, a request is sent in response /service_response/{AndroidID}/{uuid}
-
-An example of organizing the change of settings is in the old developer kit in the 1C demo database. Document "Changing settings"
