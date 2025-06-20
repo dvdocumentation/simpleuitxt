@@ -15,7 +15,8 @@ Welcome to the SimpleUI documentation!
    :maxdepth: 1
    :caption: Contents:
 
-   getting_started	
+   getting_started
+   vibecoding
    arch
    screens
    common_functions
